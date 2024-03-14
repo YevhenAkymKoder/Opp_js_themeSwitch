@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en, nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrypt.js" defer></script>
+</head>
+<body class="color">
+<center>
+    <h1>JavaScrypt Theme Switch</h1>
+    <!-- Change Body background 
+     <button onclick="themeSwitcher()">Switcher theme Body</button> -->
+   
+    <div id="color" class="lightMode">
+        <button onclick="themeSwitch()">Switch to Dark/Light style</button>
+        <p> Dark and light mode</p>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae soluta, voluptate assumenda expedita ullam rem, doloremque ratione sunt quidem odit ex sed quasi error molestiae fuga repellat inventore veniam pariatur?</p>
+    </div>
+
+    <div class="grid-container">
+        <div id="color" class="grid-item">1</div>
+        <div id="color" class="grid-item">2</div>
+        <div id="color" class="grid-item">3</div>  
+        <div id="color" class="grid-item">4</div>
+        <div id="color" class="grid-item">5</div>
+        <div id="color" class="grid-item">6</div>  
+        <div id="color" class="grid-item">7</div>
+        <div id="color" class="grid-item">8</div>
+        <div id="color" class="grid-item">9</div>  
+        <div id="color" class="grid-item">10</div>
+        <div id="color" class="grid-item">11</div>
+        <div id="color" class="grid-item">12</div>
+      </div>
+
+     <!-- Change button background -->
+    <button id="color_randomBg" class="button" onclick="RandomColorBg()">Click to change Random text color</button>
+    <h2 id="color_randomBg">Random text color</h2>
+
+     <!-- Change div background -->
+    <div class="lightMode" onclick="themeBox(this)">
+        <h2>Click to text to change Dark and light mode</h2>
+    </div>
+
+<!-- Change div to random background -->
+    
+    <button onclick="RandomColor()">Change Color</button>
+<h2>Change the Color background</h2>
+    <h1 id="color_random">Grid Elements and Theme Switch</h1>
+
+<p>Random Colors </p>
+
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div id="color_random" class="grid-item">2</div>
+  <div class="grid-item">3</div>  
+  <div id="color_random" class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div id="color_random" class="grid-item">6</div>  
+  <div class="grid-item">7</div>
+  <div id="color_random" class="grid-item">8</div>
+  <div class="grid-item">9</div>  
+  <div id="color_random" class="grid-item">10</div>
+  <div class="grid-item">11</div>
+  <div id="color_random" class="grid-item">12</div>
+</div>
+</center>
+</body>
+</html>
